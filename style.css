@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.main-container {
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.img-header {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.img-header img {
+    width: 20%;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.menu-header a {
+    flex: 1;
+    text-decoration: none;
+    background-color: #34495e;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.menu-header a:hover {
+    background-color: #2c3e50;
+    color: white;
+    font-weight: bold;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.paket-container {
+    width: 400px;
+    margin: 10px;
+}
+
+.paket-container h3 {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.paket-container h4 {
+    color: gray;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.paket-container img {
+    width: 100%;
+}
+
+.video-container {
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: auto;
+}
+
+.search-container {
+    margin-bottom: 10px;
+}
+
+.search-container input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+    width: 72%;
+}
+
+.search-container input[type="submit"] {
+    padding: 5px;
+}
+
+.brand-container {
+    width: 45%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.brand-container img {
+    width: 45%;
+}
+
+.brand-container h1 {
+    color: white;
+    font-size: 3.5vw;
+    text-shadow: 2px 2px 8px black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.brand-container h2 {
+    color: white;
+    font-size: 2vw;
+    text-shadow: 2px 2px 8px black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+}
